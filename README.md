@@ -55,7 +55,7 @@ Não é um pacote mágico. É um esqueleto operacional.
 ### Opção A — usar como referência
 
 ```bash
-git clone https://github.com/pixel-educacao/agent-os-hermes.git
+git clone https://github.com/okjpg/agent-os-hermes.git
 cd agent-os-hermes
 ```
 
@@ -64,7 +64,7 @@ Depois copie o que fizer sentido para o repositório do seu agente.
 ### Opção B — copiar para um workspace novo
 
 ```bash
-git clone https://github.com/pixel-educacao/agent-os-hermes.git meu-agent-os
+git clone https://github.com/okjpg/agent-os-hermes.git meu-agent-os
 cd meu-agent-os
 python3 scripts/validate-agent-os.py
 ```
@@ -83,7 +83,7 @@ Abra o Hermes no terminal ou Telegram e cole:
 
 ```text
 Você é um agente Hermes. Use este repositório como base de Agent OS:
-https://github.com/pixel-educacao/agent-os-hermes
+https://github.com/okjpg/agent-os-hermes
 
 Tarefa:
 1. Leia README.md, HERMES.md, AGENTS.md e MAPA.md.
@@ -173,6 +173,7 @@ Veja exemplos em [`skills/`](skills/).
 
 ```bash
 python3 scripts/validate-agent-os.py
+python3 scripts/stress-test-agent-os.py
 ```
 
 7. Crie suas primeiras skills com [`templates/SKILL-TEMPLATE.md`](templates/SKILL-TEMPLATE.md).
@@ -213,4 +214,4 @@ Antes de usar com alunos/clientes:
 
 ## Licença e uso
 
-Material educacional criado para a comunidade Pixel/Bruno Okamoto. Você pode estudar, adaptar e usar como base para seu próprio agente. Não redistribua como produto pago sem autorização.
+Material educacional criado pela Amora/Bruno Okamoto. Você pode estudar, adaptar e usar como base para seu próprio agente. Não redistribua como produto pago sem autorização.

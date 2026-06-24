@@ -1,6 +1,6 @@
 # Licença de uso educacional
 
-Este material pode ser usado para estudo, adaptação pessoal e uso interno por alunos/comunidade Pixel/Bruno Okamoto.
+Este material pode ser usado para estudo, adaptação pessoal e uso interno por alunos/comunidade da Amora/Bruno Okamoto.
 
 Você pode:
 

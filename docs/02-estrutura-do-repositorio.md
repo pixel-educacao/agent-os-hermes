@@ -59,4 +59,5 @@ O principal é:
 
 ```bash
 python3 scripts/validate-agent-os.py
+python3 scripts/stress-test-agent-os.py
 ```

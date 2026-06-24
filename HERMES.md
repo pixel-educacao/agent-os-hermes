@@ -5,7 +5,7 @@ Este arquivo explica como um agente Hermes deve operar este repositório.
 ## Início rápido
 
 ```bash
-git clone https://github.com/pixel-educacao/agent-os-hermes.git
+git clone https://github.com/okjpg/agent-os-hermes.git
 cd agent-os-hermes
 hermes
 ```
