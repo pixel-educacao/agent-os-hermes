@@ -1,0 +1,24 @@
+name: agent-os-hermes
+version: 1.0.0
+language: pt-BR
+purpose: >
+  Estrutura base para criar agentes Hermes com identidade, contexto,
+  skills, memória, ferramentas, regras de propagação e verificação.
+root_files:
+  - AGENTS.md
+  - SOUL.md
+  - USER.md
+  - MAPA.md
+  - MEMORY.md
+  - TOOLS.md
+  - PROPAGATION.md
+  - HERMES.md
+principles:
+  - Root files are bootloaders, not dumps.
+  - Skills are reusable procedures.
+  - Memory stores durable context, not raw logs.
+  - Tools verify reality.
+  - External actions need rails and approval.
+skill_path_pattern: skills/{category}/{name}/SKILL.md
+validation:
+  command: python3 scripts/validate-agent-os.py
